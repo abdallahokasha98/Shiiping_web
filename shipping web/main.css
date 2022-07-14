@@ -1,0 +1,157 @@
+.logo,.card-1{
+    background-image: url(img/background.gif);
+}
+.logo{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 20px;
+}
+.card-1{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+}
+.h1-card-1{
+    font-size:2cm;
+    margin-bottom: 10px;
+}
+.info-1{
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    display: inline-flex;
+}
+.img-info-1{
+    width: 70%;
+    height: 500px;
+}
+.sm-info-1{
+    width: 30%;
+    margin-left:-190px;
+    font-size: x-large;
+}
+.p-p-sm-info{
+    font-size: large;
+}
+.learnmore{
+    background-color: #E45F4E;
+    color: white;
+    border-bottom: 50px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+}
+.a-button{
+    text-decoration: none;
+    color: white;
+
+}
+.card-2{
+    margin-top: 300px;
+    width:100%;
+    height: 500px;
+    text-align: center;
+}
+.sm-card{
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.card-img-top{
+    height: 250px;
+}
+.card-title{
+    color: white;
+    font-size: xx-large;
+}
+.card-3{
+    text-align: center;
+    font-size: xx-large;
+}
+.card-4{
+    width: 100%;
+    height: 550px;
+    font-size:1.5ch;
+    float: left;
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows:250px 250px;
+    grid-template-areas: "sm1-card-4 sm2-card-4""sm3-card-4 sm4-card-4" ;   
+    background-color: #8e8e8e;     
+}
+.sm1-card-4{
+    width: 50%;
+    height: 25%;
+    grid-area: sm1-card-4;
+    margin: 100px;
+}
+.sm2-card-4{
+    width: 50%;
+    height: 25%;
+    grid-area: sm2-card-4;
+    margin: 100px;
+}
+.sm3-card-4{
+    width: 50%;
+    height: 25%;
+    grid-area: sm3-card-4;
+    margin: 100px;
+}
+.sm4-card-4{
+    width: 50%;
+    height: 25%;
+    grid-area: sm4-card-4;
+    margin: 100px;
+}
+.sm-card-3{
+    text-align: center;
+    font-size: xx-large;
+}
+.card-5{
+
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: center;
+}
+.card-img-1{
+width: 100%;
+height: 300px;
+float: left;
+background-color: blue;
+}
+.card-img-2{
+width: 100%;
+height: 300px;
+float: left;
+background-color: blueviolet;
+}
+.card-img-3{
+width: 100%;
+height: 300px;
+float: left;
+background-color: #E45F4E;
+}
+footer{
+margin-top: 100px;
+width: 100%;
+height: 500px;
+background-color:#8e8e8e;
+}
+.footer-card-1{
+color: black;
+text-align: center;
+}
+.l-sm-footer-card-2{
+width: 50%;
+margin: 50px;
+grid-area: l-sm-footer-card-2;
+}
+.h5-sm-footer-card-2{
+font-size: x-large;
+margin: 20px;
+}
+span{
+font-size: large;
+}
